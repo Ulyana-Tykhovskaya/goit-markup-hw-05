@@ -512,7 +512,14 @@ margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
-   
+    outline: transparent;
+    padding-left: 38px;
+}
+.modal-input:focus {
+    border: 1px solid #4d5ae5;
+}
+.modal-input:focus + .modal-icon{
+    fill: #4d5ae5;
 }
 .modal-lable {
     font-family: "Roboto", sans-serif;
@@ -536,4 +543,9 @@ margin-bottom: 4px;
 }
 .modal-input-wrap {
     position: relative;
+}
+
+
+.modal-text {
+    
 }
