@@ -491,9 +491,16 @@ gap: 16px;
     padding: 72px 24px;
 }
 .modal-close {
+    border: 1px solid #e7e9fc;;
     position: absolute;
     right: 24px;
     top: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     border-radius: 100%;
 fill: #e7e9fc;
 stroke-width: 1px;
@@ -574,6 +581,10 @@ height: 120px;
     outline: transparent;
     padding: 8px 16px;
     resize: none;
+    font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
 }
 
 .check-text {
