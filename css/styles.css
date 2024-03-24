@@ -540,7 +540,7 @@ cursor: pointer;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-open {
     opacity: 1;
@@ -646,10 +646,10 @@ line-height: 1.17;
     top: 14px;
     top: 50%;
     transform: translateY(-50%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
 }
 .modal-field-checkbox {
