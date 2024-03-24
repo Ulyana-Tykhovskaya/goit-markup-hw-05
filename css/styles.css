@@ -572,6 +572,9 @@ margin-bottom: 4px;
 .modal-field {
     margin-bottom: 8px;
 }
+.modal-field-checkbox {
+    margin-bottom: 24px;
+}
 .modal-input-wrap {
     position: relative;
 }
