@@ -482,10 +482,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-margin-left: 80px;
+margin-bottom: 16px;
 }
 .footer-bottom {
-    display: flex;
+    margin-left: auto;
     justify-content: space-between;
     align-items: center;
 }
