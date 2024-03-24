@@ -496,6 +496,11 @@ margin-bottom: 16px;
     height: 40px;
     background-color: transparent;
     padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
 }
 .footer-input::placeholder {
     font-size: 12px;
@@ -504,6 +509,9 @@ color: #fff
 }
 .button-svg {
     fill: #fff;
+}
+.button-svg {
+    margin-left: 16px;
 }
 .footer-form-btn {
     font-weight: 500;
@@ -520,6 +528,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 16px;
+min-width: 165px;
+cursor: pointer;
 }
 .backdrop {
     position: fixed;
