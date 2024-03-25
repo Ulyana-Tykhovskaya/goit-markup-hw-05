@@ -599,9 +599,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-close:hover,
-.button-close:focus {
-    fill: white;
+.modal-close-btn:hover > .modal-close-icon,
+ .modal-close-btn:focus > .modal-close-icon { 
+fill: #ffffff; 
 }
 
 .modal-text {
@@ -689,7 +689,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check-text {
     align-items: center;
-    display: flex;
     font-size: 12px;
 letter-spacing: 0.04em;
 color: #8e8f99;
